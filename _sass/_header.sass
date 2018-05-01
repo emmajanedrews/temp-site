@@ -1,13 +1,30 @@
 .hero-img
 	background-position: center
 	background-size: cover
-	padding-top: $nav-height + 5rem
+	margin-left: 5rem
+	height: 350px
 #hero
 	background-position: center
 	background-size: cover
 	background-attachment: fixed
 	background-repeat: no-repeat
 	text-align: center
+
+.name
+	font-family: 'Playfair Display', serif
+	font-weight: 900
+	margin: 5rem 5rem 5rem 30rem
+	text-align: left
+	font-size: 90px
+	line-height: 95px
+
+.headshot
+	max-width: 350px
+	display: block
+	margin: 0 auto
+	padding: 5rem
+	margin-top: -8rem
+	@include filter(drop-shadow($header-shadow))
 
 .site-logo
 	width: 90%

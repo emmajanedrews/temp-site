@@ -1,8 +1,18 @@
 <header id="hero">
-<div class="hero-img" style="background-image: url({{site.data.settings.images.hero_image_path}}); background-color: {{site.data.settings.images.hero_background_hex}}">
-        <!-- logo -->
-        <a href="/"><img src="{{site.data.settings.images.hero_logo_path}}" alt="{{site.data.settings.client.company}}" class="site-logo" /></a>
-        <!-- title -->
-        <a href="/"><h1 class="site-title">{{site.data.settings.images.hero_text | replace: '-- MARKET --', site.data.settings.client.market}}</h1></a>
-			</div>
+  <div class="hero-img" style="background-color: {{site.data.settings.images.hero_background_hex}}">
+    <div class="row">
+      <div class="col-sm-12">
+
+        {% include navigation.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p class="name">Emma<br>Drews</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/img/headshot.png" class="headshot">
+      </div>
+    </div>
+	</div>
 </header>
