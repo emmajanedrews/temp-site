@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>localhost:4000/404.html</loc>
+<loc>http://desertpalmtrees.com/404.html</loc>
 </url>
 <url>
-<loc>localhost:4000/about/</loc>
+<loc>http://desertpalmtrees.com/about/</loc>
 </url>
 <url>
-<loc>localhost:4000/contact/</loc>
+<loc>http://desertpalmtrees.com/contact/</loc>
 </url>
 <url>
-<loc>localhost:4000/</loc>
+<loc>http://desertpalmtrees.com/</loc>
 </url>
 <url>
-<loc>localhost:4000/search.html</loc>
+<loc>http://desertpalmtrees.com/search.html</loc>
 </url>
 <url>
-<loc>localhost:4000/thankyou/</loc>
+<loc>http://desertpalmtrees.com/thankyou/</loc>
 </url>
 </urlset>

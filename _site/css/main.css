@@ -1650,7 +1650,8 @@ table tr, table td {
       width: 2rem; } }
 .socials {
   padding: 0.7rem;
-  margin-bottom: 0.7rem; }
+  margin-bottom: 0.7rem;
+  float: right; }
   .socials ul {
     margin-bottom: 0.1rem;
     max-height: 5rem;
@@ -1691,10 +1692,11 @@ table tr, table td {
       fill: white; }
 
 .footer-socials .socials {
-  text-align: center;
+  text-align: right;
   margin: 2rem;
   list-style-type: none; }
   .footer-socials .socials li {
+    float: right;
     display: inline-block;
     margin: 0; }
   .footer-socials .socials svg {
@@ -1917,26 +1919,35 @@ table tr, table td {
   color: #000;
   line-height: 52px; }
 
-.navbar-right > li > a {
+.navbar-footer > li > a {
   background: transparent;
   color: black;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 300;
-  text-align: left;
+  text-align: center !important;
   line-height: 52px;
   text-transform: uppercase; }
-  .navbar-right > li > a:hover {
+  .navbar-footer > li > a:hover {
     font-weight: bold;
     background: transparent; }
-  .navbar-right > li > a:active {
+  .navbar-footer > li > a:active {
     -webkit-transform: translateY(0rem);
     transform: translateY(0rem);
     text-decoration: none;
     color: #ffbfbf; }
-  .navbar-right > li > a:focus {
+  .navbar-footer > li > a:focus {
     text-decoration: none;
     color: #ffbfbf; }
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto; }
+
+.footer-nav {
+  text-align: center; }
 
 form label {
   display: block; }
@@ -2026,3 +2037,6 @@ form select {
   list-style: none; }
   .nav-list i {
     margin-right: 3rem; }
+
+.overview {
+  text-align: right; }
