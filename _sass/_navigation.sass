@@ -8,6 +8,7 @@
 .navbar-andross .navbar-brand
 	color: $brand
 	padding-top: 20px
+
 	padding-bottom: 33px
 	font-size: 20px
 	text-transform: uppercase
@@ -23,11 +24,16 @@
 	max-width: 100px
 	margin: 2rem
 
+.collapse-nav-logo
+	display: none
+	max-width: 100px
+	margin: 2rem auto
+
 .navbar-left
 	margin: 2rem
 
 .navbar-left>li>a
-	background: transparent
+	background: $brand
 	color: black
 	text-transform: capitalize
 	font-size: 2rem
@@ -64,7 +70,7 @@
 		color: $brand
 
 .fa-bars
-	color: $brand
+	color: #fff
 
 .navbar-toggle
 	// margin-top: 20px
@@ -77,6 +83,9 @@
 	padding-left: 15px
 	// height: 52px
 
+@media(max-width: 760px)
+	.collapse-nav-logo
+		display: block
 
 @media(max-width: 347px)
 	.navbar
