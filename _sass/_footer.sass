@@ -31,25 +31,17 @@
 	line-height: 52px
 
 .navbar-footer>li>a
-	background: transparent
-	color: black
-	text-transform: capitalize
-	font-size: 2rem
-	font-weight: 300
-	text-align: center !important
-	line-height: 52px
-	text-transform: uppercase
+	padding: 0
+	margin: 2rem
+	color: #000
+	text-align: center
+	background: 0 100% no-repeat linear-gradient(180deg, #fbdb56 50%, #fbdb56 50%)
+	background-size: 0 40%
+	transition: background-size 0.25s ease-in
 	&:hover
-		font-weight: bold
-		background: transparent
-	&:active
-		// box-shadow: 0 0 0 $brand-dark
-		@include transform(translateY(0rem))
+		background-size: 100% 40%
 		text-decoration: none
-		color: $brand
-	&:focus
-		text-decoration: none
-		color: $brand
+		color: #000
 
 .navbar-nav
 	float: none

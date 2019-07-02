@@ -17,12 +17,14 @@ images:
   hero_logo_path: /img/logo.png
   logo_width_number: 40
   hero_text:
-  hero_background_hex: '#ffbfbf'
+  hero_background_hex: '#fcd8cd'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
 
 site_colors:
-  brand_color: '#ffbfbf'
+  brand_color: '#fcd8cd'
+  old_brand_color: '#ffbfbf'
+  accent_color: '#fbdb56'
   theme_color: '#999'
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'

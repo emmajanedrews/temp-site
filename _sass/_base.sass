@@ -89,9 +89,10 @@ body
   animation: 1s ease-in-out fadein
 
 h1, h2, h3, h4, h5, h6
-  font-family: 'Playfair Display', serif
-  font-weight: 900
+  font-family: "Source Sans Pro", helvetica, arial, sans-serif
+  text-transform: uppercase
   margin: 1rem 0
+  letter-spacing: 5px
 
 h1
   font-size: 5rem
@@ -119,14 +120,23 @@ h6
   margin: 0 auto
 
 a
-  color: $brand
+  color: $theme
   text-decoration: none
+  text-transform: uppercase
+  letter-spacing: 5px
+  background: 0 100% no-repeat linear-gradient(180deg, #fbdb56 50%, #fbdb56 50%)
+  background-size: 0 40%
+  transition: background-size 0.25s ease-in
   &:hover
-    text-decoration: none
-    font-weight: bold
-    color: $brand
-  &:visited
-    text-decoration: none
+    background-size: 100% 40%
+
+  // &:hover
+  //   text-decoration: none
+  //   font-weight: bold
+  //   color: $brand
+  //   cursor: crosshair
+  // &:visited
+  //   text-decoration: none
 
 //Buttons
 .button, button, input[type="button"],input[type="submit"]
@@ -179,10 +189,7 @@ table
   clip: rect(0,0,0,0)
   border: 0
 
-//For pageination mostly...
-.disabled
-  color: gray
-  fill: grey
+
 
 //primarily for helper_header
 .warning
